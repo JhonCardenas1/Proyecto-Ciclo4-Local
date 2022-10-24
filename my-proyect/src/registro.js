@@ -1,4 +1,4 @@
-//Vista para el registro de productos
+//Vista para el registro de productos nuevos
 
 import React from "react";
 
