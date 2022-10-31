@@ -4,6 +4,8 @@ import ReactDOM from 'react-dom/client';
 //import App from './App';
 //import reportWebVitals from './reportWebVitals';
 import {App} from './registro';
+//import { Registro } from './registro.js';
+//import { Carrito } from './car';
 
 //comentario
 

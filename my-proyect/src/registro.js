@@ -4,8 +4,49 @@ import React from "react";
 
 export function App() {
     return (
-        <div class="container">
+        <div class="container">    
             <div class="row justify-content-center align-items-center">
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        Software y Servicios JJEJ
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active"
+                                    aria-current="page"
+                                    href="Lista_Productos"
+                                >
+                                    Lista Productos
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Modificar_Productos">
+                                    Modificar Productos
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Lista_Ventas">
+                                    Lista Ventas
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
                 <div class="col-sm-6">
                     <div class=" border mx-auto shadow-lg p-3 mb-5 mt-4 bg-body rounded" >
                         <div class="border mx-auto border-dark rounded mb-3 d-flex justify-content-center align-items-center bg-success text-dark bg-opacity-70 " >
